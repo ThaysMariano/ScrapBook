@@ -1,2 +1,1 @@
-# ScrapBook
-Projeto ScrapBook online
+# Scrapbook
