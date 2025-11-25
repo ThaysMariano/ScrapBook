@@ -1,11 +1,14 @@
 import './App.css'
-import Titulo from './componentes/titulo/Titulo'
+import cardData from "./data/cardData.json"
+import Title from './componentes/title/Title'
+import Card from './componentes/card'
 
 function App() {
 
   return <>
     <main>
-      <Titulo/>
+      <Title/>
+      {cardData.map((c)=>(<Card key={c.id} title={c.title} image={c.image} description={c.description} background={c.background} ></Card>))}
     </main>
   </>
 }

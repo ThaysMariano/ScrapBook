@@ -2,7 +2,7 @@ import style from "./style.module.css"
 import titleData from "../../data/titleData.json"
 
 
-const Titulo = () =>{
+const Title = () =>{
 
     return <>
     <div className={style.tituloDiv}>
@@ -13,4 +13,4 @@ const Titulo = () =>{
 
 }
 
-export default Titulo
+export default Title
