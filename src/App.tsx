@@ -7,8 +7,10 @@ function App() {
 
   return <>
     <main>
-      <Title/>
-      {cardData.map((c)=>(<Card key={c.id} title={c.title} image={c.image} description={c.description} background={c.background} ></Card>))}
+      <section>
+        <Title/>
+      </section>
+      {cardData.map((c)=>(<section><Card key={c.id} title={c.title} image={c.image} description={c.description} background={c.background} ></Card></section>))}
     </main>
   </>
 }
