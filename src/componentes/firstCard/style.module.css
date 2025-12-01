@@ -1,0 +1,13 @@
+
+
+.photos{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photos img{
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}

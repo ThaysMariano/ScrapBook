@@ -26,5 +26,12 @@
     "description": "Onde cada café rendia horas de risada!",
     "image": "../../neve.webp",
     "background": "rosa"
+  },
+   {
+    "id": 5,
+    "title": "Nossa Primeira Viagem",
+    "description": "Esse foi um dos momentos mais divertidos que tivemos juntas!",
+    "image":  "../../praia.jpg",
+    "background": "roxo"
   }
 ]
